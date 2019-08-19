@@ -1,10 +1,9 @@
 
 import { Component } from "@angular/core";
-import { BaseFormComponent } from "../forms-controller/baseForm.component";
 import { FormBuilder } from "@angular/forms";
-import { TaskServiceNg } from "../../../../services/rest/task.service";
 import { MessageService } from "primeng/api";
 import { Router } from "@angular/router";
+import { BaseFormComponent, TaskServiceNg } from "projects/alanda-common/src/public_api";
 
 
 @Component({

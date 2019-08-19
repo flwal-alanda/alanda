@@ -1,18 +1,17 @@
 
 import { Component } from "@angular/core";
 import { FormBuilder } from "@angular/forms";
-import { TaskServiceNg } from "../../../../services/rest/task.service";
+import { SelectItem, MessageService } from "primeng/api";
 import { Router } from "@angular/router";
-import { MessageService, SelectItem } from "primeng/api";
-import { BaseFormComponent } from "../forms-controller/baseForm.component";
+import { BaseFormComponent, TaskServiceNg } from "projects/alanda-common/src/public_api";
 
 
 @Component({
-    selector: 'modify-vacation-request',
-    templateUrl: './modify-vacation-request.component.html',
+    selector: 'prepare-vacation-request',
+    templateUrl: './prepare-vacation-request.component.html',
     styleUrls: [],
   })
-export class ModifyVacationRequestComponent extends BaseFormComponent {
+  export class PrepareVacationRequestComponent extends BaseFormComponent {
 
     items: SelectItem[];
 
@@ -23,5 +22,4 @@ export class ModifyVacationRequestComponent extends BaseFormComponent {
           {label: 'No', value: false}
         ];
       }
-
   }

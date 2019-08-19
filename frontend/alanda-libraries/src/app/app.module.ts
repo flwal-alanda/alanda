@@ -17,6 +17,7 @@ import { ALANDA_CONFIG } from './app.settings';
 import { AppRoutingModule } from './app-routing.module';
 import { AlandaCommonModule, AppSettings, APP_CONFIG } from 'projects/alanda-common/src/public_api';
 import { HomeComponent } from './components/home/home.component';
+import { VacationModule } from './vacation.module';
 
 const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
 @NgModule({
@@ -32,6 +33,7 @@ const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
     MenubarModule,
     CalendarModule,
     ToastModule,
+    VacationModule
   ],
   providers: [
     {
