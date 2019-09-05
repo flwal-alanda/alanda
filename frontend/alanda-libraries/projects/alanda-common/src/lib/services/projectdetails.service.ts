@@ -7,6 +7,7 @@ export class ProjectDetailsServiceNg {
   private propertyComponents: Map<string, Type<any>>
 
   constructor() {
+    this.propertyComponents = new Map<string, Type<any>>();
   }
 
   getPropsForType(key : string): Type<Component> {

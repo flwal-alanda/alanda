@@ -7,6 +7,7 @@ export class FormsServiceNg {
   private propertyComponents: Map<string, Type<any>>
 
   constructor() {
+    this.propertyComponents = new Map<string, Type<any>>();
   }
 
   getFormByKey(key : string): Type<Component> {

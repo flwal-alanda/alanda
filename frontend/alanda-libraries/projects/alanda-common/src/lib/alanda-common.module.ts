@@ -115,7 +115,7 @@ import { MessageModule } from 'primeng/message';
     InputTextareaModule,
     FieldsetModule,
     CalendarModule,
-    MessageModule,
+    MessageModule
   ],
   declarations: [
     UserComponent,
@@ -182,9 +182,9 @@ import { MessageModule } from 'primeng/message';
     SelectComponent,
     SelectRoleComponent,
     DatepickerComponent,
-    DropdownSelectComponent
+    DropdownSelectComponent,
    ],
-  entryComponents: [,
+  entryComponents: [
     ProjectHeaderComponent,
     ProjectsControllerComponent,
   ]

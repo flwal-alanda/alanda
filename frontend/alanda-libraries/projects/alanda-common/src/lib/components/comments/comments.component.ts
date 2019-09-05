@@ -25,7 +25,7 @@ export class CommentsComponent implements OnInit {
   procInstId: string;
   taskId: string;
   tagHash = {};
-  tagFilters = [];
+  tagFilters: string[] = [];
   searchText: string;
   subject = ' ';
   content = '';
@@ -132,7 +132,7 @@ export class CommentsComponent implements OnInit {
 
 
   tagClass(tag: CommentTag): string{
-    if(!this.filterEnabled || this.tagFilters.indexOf(tag.name) !== -1){
+    /* if(!this.filterEnabled || this.tagFilters.indexOf(tag.name) !== -1){
       //TODO: remove? improve
       if(tag.name == '#escalation'){
         return 'ui-button-danger';
@@ -140,6 +140,10 @@ export class CommentsComponent implements OnInit {
       if(tag.name.startsWith('#')){
         return 'ui-button-warning';
       }
+      return 'ui-button-success';
+    }
+    return 'ui-button-info'; */
+    if(this.tagFilters.indexOf(tag.name) != -1) {
       return 'ui-button-success';
     }
     return 'ui-button-info';
