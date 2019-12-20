@@ -10,6 +10,7 @@ import { CardModule } from "primeng/card";
 import { CommonModule } from "@angular/common";
 import { ButtonModule } from "primeng/button";
 import { DefaultTaskComponent } from "./components/task-forms/default-task-template.component";
+import {AcceptComponent} from "./components/task-forms/accept.component";
 
 @NgModule({
   imports:[
@@ -25,7 +26,8 @@ import { DefaultTaskComponent } from "./components/task-forms/default-task-templ
     CheckVacationRequestComponent,
     ModifyVacationRequestComponent,
     ProjectPropertiesVacationComponent,
-    DefaultTaskComponent
+    DefaultTaskComponent,
+    AcceptComponent
   ],
   exports: [
     VacationProjectDetailsComponent,
@@ -36,6 +38,7 @@ import { DefaultTaskComponent } from "./components/task-forms/default-task-templ
     FieldsetModule,
     CardModule,
     ButtonModule,
+    AcceptComponent
   ],
   providers: [],
   entryComponents: [
@@ -44,10 +47,11 @@ import { DefaultTaskComponent } from "./components/task-forms/default-task-templ
     CheckVacationRequestComponent,
     ModifyVacationRequestComponent,
     ProjectPropertiesVacationComponent,
-    DefaultTaskComponent
+    DefaultTaskComponent,
+    AcceptComponent
   ]
 })
-export class VacationModule { 
+export class VacationModule {
 
   constructor() {}
 }
