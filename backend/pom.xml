@@ -45,6 +45,7 @@
         <module>alanda-persistence</module>
         <module>alanda-development</module>
         <module>alanda-process-vacation</module>
+        <module>backend-alanda-new-vacation-process</module>
     </modules>
 
 
