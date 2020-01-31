@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { UserManagementComponent, CreateProjectComponent, ProjectMonitorComponent, TasklistComponent,AttachmentsComponent,
          GroupManagementComponent, CommentsComponent, FormsControllerComponent, ProjectsControllerComponent, RoleManagementComponent, PermissionManagementComponent } from 'projects/alanda-common/src/public_api';
+import { FormlyComponent } from './formly/formly.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'comments', component: CommentsComponent },
   { path: 'forms/:formKey/:taskId', component: FormsControllerComponent },
   { path: 'projectdetails/:projectId', component: ProjectsControllerComponent },
+  { path: 'formly', component: FormlyComponent},
   { path: '**', redirectTo: ''}
 ]
 

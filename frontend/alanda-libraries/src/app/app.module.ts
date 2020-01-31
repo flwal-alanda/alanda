@@ -21,12 +21,32 @@ import { VacationModule } from './vacation/vacation.module';
 import { VacationProjectPropertiesService } from './vacation/services/vacation-projectproperties.service';
 import { VacationProjectDetailsService } from './vacation/services/vacation-projectdetails.service';
 import { VacationFormsService } from './vacation/services/vacation-forms.service';
-
+import { ReactiveFormsModule, FormControl, ValidationErrors } from '@angular/forms';
+import { FormlyModule, FormlyFieldConfig } from '@ngx-formly/core';
+import { FormlyPrimeNGModule } from '@ngx-formly/primeng';
+import { FormlyComponent } from './formly/formly.component';
+import { TabViewModule } from 'primeng/tabview';
+import { AutoCompleteModule } from 'primeng/autocomplete';
+import { PrimeNgAutoCompleteComponent } from './formly/customControls/primeng-autocomplete.type';
 const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
+
+export function minValidationMessage(err, field: FormlyFieldConfig) {
+  return `Please provide a value bigger than ${err.min - 1}`;
+}
+
+export function ipValidationMessage(err, field: FormlyFieldConfig) {
+  return `${field.formControl.value} is not a valid IP address}`;
+}
+
+export function IpValidator(control: FormControl): ValidationErrors {
+  return !control.value || /(\d{1,3}\.){3}\d{1,3}/.test(control.value) ? null : {ip: true};
+}
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    FormlyComponent,
+    PrimeNgAutoCompleteComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +56,40 @@ const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
     MenubarModule,
     CalendarModule,
     ToastModule,
-    VacationModule
+    VacationModule,
+    AutoCompleteModule,
+    ReactiveFormsModule,
+    FormlyModule.forRoot({
+      validators: [
+        {
+          name: 'ip',
+          validation: IpValidator
+        }
+      ],
+      validationMessages: [
+        {
+          name: 'required',
+          message: 'This field is required'
+        },
+        {
+          name: 'min',
+          message: minValidationMessage
+        },
+        {
+          name: 'ip',
+          message: ipValidationMessage
+        }
+      ],
+      types: [
+        {
+          name: 'primeng-autocomplete',
+          component: PrimeNgAutoCompleteComponent,
+          wrappers: ['form-field'],
+        }
+      ]
+    }),
+    FormlyPrimeNGModule,
+    TabViewModule
   ],
   providers: [
     {provide: APP_CONFIG, useValue: CURRENT_CONFIG},
@@ -47,7 +100,7 @@ const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
+export class AppModule {
 
   constructor(@Inject(APP_CONFIG) config: AppSettings) {
     console.log("Settings", config);

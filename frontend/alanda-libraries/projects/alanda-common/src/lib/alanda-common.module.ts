@@ -86,6 +86,8 @@ import { GroupManagementComponent } from './components/admin/group-management/gr
 import { RoleManagementComponent } from './components/admin/role-management/role-management.component';
 import { PermissionManagementComponent } from './components/admin/permission-management/permission-management.component';
 import { HistoryServiceNg } from './api/history.service';
+import { FormlyPrimeNGModule } from '@ngx-formly/primeng';
+import { FormlyModule } from '@ngx-formly/core';
 @NgModule({
   imports: [
     CommonModule,
@@ -121,7 +123,9 @@ import { HistoryServiceNg } from './api/history.service';
     FieldsetModule,
     CalendarModule,
     MessageModule,
-    AccordionModule
+    AccordionModule,
+    FormlyModule.forRoot(),
+    FormlyPrimeNGModule
   ],
   declarations: [
     UserManagementComponent,

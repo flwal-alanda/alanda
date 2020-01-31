@@ -22,6 +22,8 @@
     "@angular/platform-browser": "6.1.10",
     "@angular/platform-browser-dynamic": "6.1.10",
     "@angular/router": "6.1.10",
+    "@ngx-formly/core": "^5.5.10",
+    "@ngx-formly/primeng": "^5.5.10",
     "bootstrap": "3.3.7",
     "bpmn-js": "3.4.1",
     "core-js": "2.5.5",
