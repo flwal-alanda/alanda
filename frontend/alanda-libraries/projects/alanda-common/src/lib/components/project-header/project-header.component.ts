@@ -10,7 +10,7 @@ import { ProjectServiceNg } from "../../api/project.service";
 import { FormsRegisterService } from "../../services/forms-register.service";
 import { TaskServiceNg } from "../../api/task.service";
 import { ProjectState } from "../../enums/project-status.enum";
-import { Utils } from "../../utils/utils";
+import { convertUTCDate } from "../../utils/utils";
 
 @Component({
     selector: 'project-header-component',
@@ -31,7 +31,7 @@ import { Utils } from "../../utils/utils";
     projectHeaderForm: FormGroup;
 
     constructor(private componentFactoryResolver: ComponentFactoryResolver, private propertiesService: ProjectPropertiesServiceNg,
-                private taskService: TaskServiceNg, private cdRef:ChangeDetectorRef, private messageService: MessageService, 
+                private taskService: TaskServiceNg, private cdRef:ChangeDetectorRef, private messageService: MessageService,
                 private fb: FormBuilder, private projectService: ProjectServiceNg, private formsRegisterService: FormsRegisterService) {}
 
     ngOnInit() {
@@ -63,8 +63,8 @@ import { Utils } from "../../utils/utils";
             projectDueDate: [new Date(this.project.dueDate), Validators.required],
             projectTitle: [this.project.title, Validators.required],
             projectDetails: [this.project.comment, Validators.required],
-        }); 
-    
+        });
+
           if(this.task){
             this.projectHeaderForm.addControl('taskDueDate', this.fb.control(new Date(this.task.due), Validators.required));
           }
@@ -75,7 +75,7 @@ import { Utils } from "../../utils/utils";
     }
 
     updateProject() {
-        this.project.dueDate = Utils.convertUTCDate(this.projectHeaderForm.get('projectDueDate').value).toISOString().substring(0,10);
+        this.project.dueDate = convertUTCDate(this.projectHeaderForm.get('projectDueDate').value).toISOString().substring(0,10);
         this.projectService.updateProject(this.project).subscribe(project => {
             if(project.version){
                 this.project.version = project.version;
@@ -88,7 +88,7 @@ import { Utils } from "../../utils/utils";
     }
 
     public updateDueDateOfTask() {
-        const taskDueDate = Utils.convertUTCDate(this.projectHeaderForm.get('taskDueDate').value).toISOString().substring(0,10);
+        const taskDueDate = convertUTCDate(this.projectHeaderForm.get('taskDueDate').value).toISOString().substring(0,10);
         this.taskService.updateDueDateOfTask(this.task.task_id, taskDueDate).subscribe(
           res => this.messageService.add({severity:'success', summary:'Update Due Date Of Task', detail:'Due date of task has successfully been updated'}),
           error => {this.messageService.add({severity:'error', summary:'Update Due Date Of Task', detail: error.message})})
@@ -109,10 +109,9 @@ import { Utils } from "../../utils/utils";
             this.task.assignee_id = ""+selectedUser.guid;
             this.task.assignee = selectedUser.displayName;
             this.showDelegateDialog = false;
-        },            
+        },
         error => this.messageService.add({severity:'error', summary:'Delegate Task', detail: error.message}));
     }
     }
-    
+
   }
-  

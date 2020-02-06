@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 import { FormsRegisterService } from "../../../../services/forms-register.service";
 import { Project } from "../../../../models/project";
 import { MilestoneService } from "../../../../api/milestone.service";
-import { Utils } from "../../../../utils/utils";
+import { convertUTCDate } from "projects/alanda-common/src/lib/utils/utils";
 
 @Component({
     selector: 'milestone-select',
@@ -18,7 +18,7 @@ export class SelectMilestoneComponent implements OnInit {
     @Input() msName: string;
 
     milestoneForm: FormGroup;
-    
+
     constructor(private milestoneService: MilestoneService, private fb: FormBuilder, private formsRegisterService: FormsRegisterService){}
 
     ngOnInit(){
@@ -36,8 +36,8 @@ export class SelectMilestoneComponent implements OnInit {
     }
 
     onChange() {
-      const fc = this.milestoneForm.get('fc').value ? Utils.convertUTCDate(new Date(this.milestoneForm.get('fc').value)).toISOString().substring(0,10) : null;
-      const act = this.milestoneForm.get('act').value ? Utils.convertUTCDate(new Date(this.milestoneForm.get('act').value)).toISOString().substring(0,10) : null;
+      const fc = this.milestoneForm.get('fc').value ? convertUTCDate(new Date(this.milestoneForm.get('fc').value)).toISOString().substring(0,10) : null;
+      const act = this.milestoneForm.get('act').value ? convertUTCDate(new Date(this.milestoneForm.get('act').value)).toISOString().substring(0,10) : null;
       this.milestoneService.updateByProjectAndMsIdName(this.project.projectId, this.msName, fc, act, null, false, false).subscribe();
     }
 

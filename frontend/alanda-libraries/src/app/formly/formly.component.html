@@ -1,16 +1,11 @@
   <form [formGroup]="form" (submit)="onSubmit(form)">
-    <p-panel header="Formly 1" [toggleable]="true">
-      <formly-form [model]="model1" [fields]="cfg1" [form]="form"></formly-form>
-    </p-panel>
-    <p-panel header="Formly 2" [toggleable]="true">
-      <formly-form [model]="model2" [fields]="cfg2" [form]="form"></formly-form>
-    </p-panel>
-
+    <formly-form [model]="model1" [fields]="cfg1" [form]="form"></formly-form>
+    <p-panel header="Model 2"><formly-form [model]="model2" [fields]="cfg2" [form]="form"></formly-form></p-panel>
     <button type="reset">Clear</button>
     <button type="submit">Submit</button>
   </form>
   <p-tabView>
-    <p-tabPanel header="Form Value">
+    <p-tabPanel header="Form Values">
       <pre>{{form.value | json}}</pre>
     </p-tabPanel>
     <p-tabPanel header="Model">
@@ -20,20 +15,3 @@
       <pre>{{model2 | json}}</pre>
     </p-tabPanel>
   </p-tabView>
-
-
-<!-- <p-panel header="Formly 2" [toggleable]="true">
-  <form [formGroup]="form2" (submit)="onSubmit(form2)">
-    <formly-form [model]="model2" [fields]="cfg2" [form]="form2"></formly-form>
-    <button type="reset">Clear</button>
-    <button type="submit">Submit</button>
-  </form>
-  <p-tabView>
-    <p-tabPanel header="Form Value">
-      <pre>{{form2.value | json}}</pre>
-    </p-tabPanel>
-    <p-tabPanel header="Model">
-      <pre>{{model2 | json}}</pre>
-    </p-tabPanel>
-  </p-tabView>
-</p-panel> -->
