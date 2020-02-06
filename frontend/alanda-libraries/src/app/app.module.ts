@@ -28,6 +28,8 @@ import { FormlyComponent } from './formly/formly.component';
 import { TabViewModule } from 'primeng/tabview';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { PrimeNgAutoCompleteComponent } from './formly/customControls/primeng-autocomplete.type';
+import { PrimeNgCalendarComponent } from './formly/customControls/primeng-calendar.type';
+import {PanelModule} from 'primeng/panel';
 const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
 
 export function minValidationMessage(err, field: FormlyFieldConfig) {
@@ -46,7 +48,8 @@ export function IpValidator(control: FormControl): ValidationErrors {
     AppComponent,
     HomeComponent,
     FormlyComponent,
-    PrimeNgAutoCompleteComponent
+    PrimeNgAutoCompleteComponent,
+    PrimeNgCalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -85,11 +88,17 @@ export function IpValidator(control: FormControl): ValidationErrors {
           name: 'primeng-autocomplete',
           component: PrimeNgAutoCompleteComponent,
           wrappers: ['form-field'],
+        },
+        {
+          name: 'primeng-calendar',
+          component: PrimeNgCalendarComponent,
+          wrappers: ['form-field'],
         }
       ]
     }),
     FormlyPrimeNGModule,
-    TabViewModule
+    TabViewModule,
+    PanelModule
   ],
   providers: [
     {provide: APP_CONFIG, useValue: CURRENT_CONFIG},
