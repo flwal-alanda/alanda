@@ -45,6 +45,8 @@
         <module>alanda-persistence</module>
         <module>alanda-development</module>
         <module>alanda-process-vacation</module>
+        <module>alanda-object-store</module>
+        <module>alanda-object-store</module>
     </modules>
 
 
