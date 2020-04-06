@@ -1,0 +1,3 @@
+<ng-container *ngIf="state$ | async as s">
+  <prepare-vacation-request [project]="s.project" [task]="s.task"></prepare-vacation-request>
+</ng-container>
