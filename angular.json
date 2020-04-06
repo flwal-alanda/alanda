@@ -123,6 +123,38 @@
           }
         }
       }
+    },
+    "alanda-ui": {
+      "projectType": "library",
+      "root": "libs/alanda-ui",
+      "sourceRoot": "libs/alanda-ui/src",
+      "prefix": "alanda-io",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/alanda-ui/tsconfig.lib.json",
+              "libs/alanda-ui/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/alanda-ui/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/alanda-ui/jest.config.js",
+            "tsConfig": "libs/alanda-ui/tsconfig.spec.json",
+            "passWithNoTests": true,
+            "setupFile": "libs/alanda-ui/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "cli": {

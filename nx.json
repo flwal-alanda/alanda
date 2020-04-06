@@ -25,6 +25,9 @@
     "alanda-ui-demo-e2e": {
       "tags": [],
       "implicitDependencies": ["alanda-ui-demo"]
+    },
+    "alanda-ui": {
+      "tags": []
     }
   }
 }
