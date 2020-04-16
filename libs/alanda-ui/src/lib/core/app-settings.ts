@@ -1,8 +1,6 @@
 import { InjectionToken, Injectable } from '@angular/core';
 
-@Injectable()
-export class AppSettings {
+export interface ApiSettings {
   API_ENDPOINT: string;
 }
-
-export const APP_CONFIG = new InjectionToken<AppSettings>('AppConfig');
+export const APP_CONFIG = new InjectionToken<ApiSettings>('AppConfig');

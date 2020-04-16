@@ -1,0 +1,15 @@
+
+
+<ng-container *ngIf="state$ | async as formManagerState">
+  <h1>{{title}}</h1>
+  <form [formGroup]="rootForm" (submit)="submit()">
+    errors: {{rootForm.errors| json}}
+    <pane1-dummy [rootFormGroup]="rootForm" [project]="formManagerState.project" [task]="formManagerState.task"></pane1-dummy>
+    <pane2-dummy [rootFormGroup]="rootForm" [project]="formManagerState.project" [task]="formManagerState.task"></pane2-dummy>
+
+    <button type="submit">
+      Submit
+    </button>
+
+  </form>
+</ng-container>

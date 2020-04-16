@@ -1,0 +1,13 @@
+<ng-container *ngIf="state$ | async as s">
+  <h2>{{s.title}}</h2>
+  <div [formGroup]="fg">
+    errors: {{fg.errors| json}}
+    <div *ngFor="let item of fg.controls | keyvalue">
+      <label>{{item.key}}</label>
+      <input type="text" [formControlName]="item.key"/><br/>
+      errors: {{fg.get(item.key).errors| json}}
+      <p *ngIf="item.value.invalid">This control is invalid</p>
+    </div>
+
+  </div>
+</ng-container>

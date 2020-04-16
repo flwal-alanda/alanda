@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import {ActivatedRouteSnapshot, NavigationEnd, Params, Router, RouterEvent} from '@angular/router';
+import {filter} from "rxjs/operators";
+import {BehaviorSubject} from "rxjs";
 
 @Component({
   selector: 'alanda-io-root',
@@ -8,9 +10,16 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'alanda-ui-demo';
+  public params: BehaviorSubject<Params>;
+  public paramsSnapshot: Params = {};
 
   constructor(private router: Router) {
-    this.router.navigate(['test', '4f9adbac-743c-11ea-8e25-02420a640002']);
+
+
+  }
+
+  navigate(route: string) {
+    this.router.navigate([route, '4f9adbac-743c-11ea-8e25-02420a640002'])
   }
 
 }
