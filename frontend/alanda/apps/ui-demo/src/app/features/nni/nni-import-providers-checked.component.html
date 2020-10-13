@@ -1,0 +1,56 @@
+<p-panel *ngIf="state$ | async as formState">
+
+  <p-header>NNI Provider Selection</p-header>
+
+  <div class="table-responsive">
+    <table class="table table-striped">
+
+      <thead>
+      <tr>
+        <th>Supplier</th>
+        <th>NNI (Alias)</th>
+        <th>Provider</th>
+      </tr>
+      </thead>
+
+      <tbody>
+
+      <tr *ngFor="let provider of formState.nnis">
+        <td>{{provider.supplier}}</td>
+        <td>{{ provider.nni }}</td>
+        <td>Choose a provider</td>
+      </tr>
+
+      </tbody>
+    </table>
+
+    <p>subscription</p>
+    <p>{{response$ | async | json}}</p>
+    <p>{{response$ | async }}</p>
+    <p>nnis</p>
+    <p>{{formState.nnis | json}}</p>
+    <!--    <p>provider</p>-->
+    <!--    <p>{{formState.providers | json}}</p>-->
+
+    <!--    table w/ display supplier (nbame), nni (+alias), provider (PEAK_LL_PROVIDER_GUID)-->
+    <!--    sort by nni, supplier-->
+    <!--    dropdown w/ providers list-->
+    <!--    on select: update alanda object provider-->
+
+
+    <!--        <tr *ngFor="let provider of formState.nnis">-->
+    <!--          <td>{{provider.supplier}}</td>-->
+    <!--          <td>{{ provider.nni }}</td>-->
+    <!--          <td>-->
+    <!--            <form [formGroup]="selects">-->
+    <!--              <select formControlName="state">-->
+    <!--                <option *ngFor="let state of myStates.states" [ngValue]="state">-->
+    <!--                  {{ state.abbrev }}-->
+    <!--                </option>-->
+    <!--              </select>-->
+    <!--            </form>-->
+    <!--          </td>-->
+    <!--        </tr>-->
+
+  </div>
+</p-panel>

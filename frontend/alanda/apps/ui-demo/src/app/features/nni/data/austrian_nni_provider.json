@@ -1,0 +1,2105 @@
+[
+  {
+    "guid": 14,
+    "version": 0,
+    "providerName": "A1",
+    "groupIdRef": 1023161,
+    "contactMails": [
+      "ws.sales.anfragen@a1.at"
+    ],
+    "slas": [
+      {
+        "guid": 1023520,
+        "version": 0,
+        "providerGuid": 14,
+        "slaName": "SLA Professional (CIR Wert angeben: Premium)",
+        "availabilityPeriod": null,
+        "availability": 0,
+        "support": null,
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023177,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "ws.sales.anfragen@a1.at",
+        "firstName": null,
+        "surname": null,
+        "email": "ws.sales.anfragen@a1.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "ws.sales.anfragen@a1.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023177,
+        "objectName": "ws.sales.anfragen@a1.at",
+        "refObjectDisplayName": "ws.sales.anfragen@a1.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 12,
+    "version": 0,
+    "providerName": "Citykom",
+    "groupIdRef": 1023169,
+    "contactMails": [
+      "salessupport@citycom.co.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023195,
+        "siteId": "400069B",
+        "location": "Graz, 8020, Puchstrasse 47"
+      },
+      {
+        "guid": 1023272,
+        "siteId": "440634A",
+        "location": "Graz, 8010, Neuholdaugasse 56"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023518,
+        "version": 0,
+        "providerGuid": 12,
+        "slaName": "SLA 2",
+        "availabilityPeriod": "Quart",
+        "availability": 0,
+        "support": null,
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023189,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "salessupport@citycom.co.at",
+        "firstName": null,
+        "surname": null,
+        "email": "salessupport@citycom.co.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "salessupport@citycom.co.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023189,
+        "objectName": "salessupport@citycom.co.at",
+        "refObjectDisplayName": "salessupport@citycom.co.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023253,
+    "version": 1,
+    "providerName": "Colt",
+    "groupIdRef": 1023223,
+    "contactMails": [
+      "ATWholesalesEnquiries@colt.net",
+      "COLT_PS_Desk@colt.net"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023280,
+        "siteId": "150686A",
+        "location": "Wien, 1220, Donaucitystrasse 11"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023237,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "ATWholesalesEnquiries@colt.net",
+        "firstName": null,
+        "surname": null,
+        "email": "ATWholesalesEnquiries@colt.net",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "ATWholesalesEnquiries@colt.net",
+        "refObjectType": "USER",
+        "refObjectId": 1023237,
+        "objectName": "ATWholesalesEnquiries@colt.net",
+        "refObjectDisplayName": "ATWholesalesEnquiries@colt.net"
+      },
+      {
+        "guid": 1023236,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "COLT_PS_Desk@colt.net",
+        "firstName": null,
+        "surname": null,
+        "email": "COLT_PS_Desk@colt.net",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "COLT_PS_Desk@colt.net",
+        "refObjectType": "USER",
+        "refObjectId": 1023236,
+        "objectName": "COLT_PS_Desk@colt.net",
+        "refObjectDisplayName": "COLT_PS_Desk@colt.net"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023254,
+    "version": 1,
+    "providerName": "Deutsche Telekom AG",
+    "groupIdRef": 1023224,
+    "contactMails": [
+      "Ralf.Knappe@telekom.de",
+      "Diana.Pila@telekom.hu"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023239,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "Ralf.Knappe@telekom.de",
+        "firstName": null,
+        "surname": null,
+        "email": "Ralf.Knappe@telekom.de",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "Ralf.Knappe@telekom.de",
+        "refObjectType": "USER",
+        "refObjectId": 1023239,
+        "objectName": "Ralf.Knappe@telekom.de",
+        "refObjectDisplayName": "Ralf.Knappe@telekom.de"
+      },
+      {
+        "guid": 1023238,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "Diana.Pila@telekom.hu",
+        "firstName": null,
+        "surname": null,
+        "email": "Diana.Pila@telekom.hu",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "Diana.Pila@telekom.hu",
+        "refObjectType": "USER",
+        "refObjectId": 1023238,
+        "objectName": "Diana.Pila@telekom.hu",
+        "refObjectDisplayName": "Diana.Pila@telekom.hu"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 7,
+    "version": 0,
+    "providerName": "Energie AG (BBI)",
+    "groupIdRef": 1023164,
+    "contactMails": [
+      "primenet@energieag.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023196,
+        "siteId": "500001A",
+        "location": "Linz, 4020, Fichtenstraße 7"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023513,
+        "version": 0,
+        "providerGuid": 7,
+        "slaName": "SLA_Tele2",
+        "availabilityPeriod": "Quart",
+        "availability": 0,
+        "support": null,
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023183,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "primenet@energieag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "primenet@energieag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "primenet@energieag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023183,
+        "objectName": "primenet@energieag.at",
+        "refObjectDisplayName": "primenet@energieag.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 11,
+    "version": 0,
+    "providerName": "Energie Steiermark",
+    "groupIdRef": 1023168,
+    "contactMails": [
+      "fast.way@e-steiermark.com"
+    ],
+    "pops": [
+      {
+        "guid": 1023195,
+        "siteId": "400069B",
+        "location": "Graz, 8020, Puchstrasse 47"
+      },
+      {
+        "guid": 1023301,
+        "siteId": "400173A",
+        "location": "Graz, 8010, Schubertstrasse 23"
+      },
+      {
+        "guid": 1023272,
+        "siteId": "440634A",
+        "location": "Graz, 8010, Neuholdaugasse 56"
+      },
+      {
+        "guid": 1023272,
+        "siteId": "440634A",
+        "location": "Graz, 8010, Neuholdaugasse 56"
+      },
+      {
+        "guid": 1023299,
+        "siteId": "440635A",
+        "location": "Kapfenberg, 8605, Höhkogel 1"
+      },
+      {
+        "guid": 1023297,
+        "siteId": "440638A",
+        "location": "Graz-Gösting, 8051, Josef Ornig Strasse 16"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023517,
+        "version": 0,
+        "providerGuid": 11,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023187,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "fast.way@e-steiermark.com",
+        "firstName": null,
+        "surname": null,
+        "email": "fast.way@e-steiermark.com",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "fast.way@e-steiermark.com",
+        "refObjectType": "USER",
+        "refObjectId": 1023187,
+        "objectName": "fast.way@e-steiermark.com",
+        "refObjectDisplayName": "fast.way@e-steiermark.com"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 4,
+    "version": 0,
+    "providerName": "IKB",
+    "groupIdRef": 1023160,
+    "contactMails": [
+      "h.gadner@ikb.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023274,
+        "siteId": "540679A",
+        "location": "Linz, Donau, 4030, Löwenzahnweg 11 Lagerhalle 1"
+      },
+      {
+        "guid": 1023199,
+        "siteId": "800059A",
+        "location": "Innsbruck, 6020, Eduard-Bodem-Gasse 2"
+      },
+      {
+        "guid": 1023276,
+        "siteId": "800159A",
+        "location": "Innsbruck, 6020, Duilestrasse 32"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023507,
+        "version": 0,
+        "providerGuid": 4,
+        "slaName": "SLA (Advanced)",
+        "availabilityPeriod": null,
+        "availability": 0,
+        "support": "24/7",
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0.5,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023176,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "h.gadner@ikb.at",
+        "firstName": null,
+        "surname": null,
+        "email": "h.gadner@ikb.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "h.gadner@ikb.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023176,
+        "objectName": "h.gadner@ikb.at",
+        "refObjectDisplayName": "h.gadner@ikb.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023255,
+    "version": 1,
+    "providerName": "IT & TEL",
+    "groupIdRef": 1023225,
+    "contactMails": [
+      "gerald.lohberger@itandtel.at;"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023283,
+        "siteId": "150676A",
+        "location": "Wien, 1090, Waehringer Guertel 78"
+      },
+      {
+        "guid": 1023305,
+        "siteId": "510102A",
+        "location": "Wels, 4600, Karl Loy-Strasse 4"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023240,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "gerald.lohberger@itandtel.at;",
+        "firstName": null,
+        "surname": null,
+        "email": "gerald.lohberger@itandtel.at;",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "gerald.lohberger@itandtel.at;",
+        "refObjectType": "USER",
+        "refObjectId": 1023240,
+        "objectName": "gerald.lohberger@itandtel.at;",
+        "refObjectDisplayName": "gerald.lohberger@itandtel.at;"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 8,
+    "version": 0,
+    "providerName": "Kabel Plus",
+    "groupIdRef": 1023165,
+    "contactMails": [
+      "carrier@kabelplus.co.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023194,
+        "siteId": "200028D",
+        "location": "St. Poelten, 3100, Purkersdorfer Str. 6"
+      },
+      {
+        "guid": 1023273,
+        "siteId": "200042A",
+        "location": "St. Pölten, 3100, Jahnstrasse 29"
+      },
+      {
+        "guid": 1023284,
+        "siteId": "310029A",
+        "location": "Eisenstadt, 7000, Kasernenstrasse 9"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023514,
+        "version": 0,
+        "providerGuid": 8,
+        "slaName": "Premium SLA",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023184,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "carrier@kabelplus.co.at",
+        "firstName": null,
+        "surname": null,
+        "email": "carrier@kabelplus.co.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "carrier@kabelplus.co.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023184,
+        "objectName": "carrier@kabelplus.co.at",
+        "refObjectDisplayName": "carrier@kabelplus.co.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023256,
+    "version": 1,
+    "providerName": "Kapsch BusinessCom",
+    "groupIdRef": 1023226,
+    "contactMails": [
+      "anton.pustina@kapsch.net"
+    ],
+    "pops": [
+      {
+        "guid": 1023313,
+        "siteId": "190188A",
+        "location": "Wien, 1120, Niederhofstrasse 22"
+      },
+      {
+        "guid": 1023299,
+        "siteId": "440635A",
+        "location": "Kapfenberg, 8605, Höhkogel 1"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023241,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "anton.pustina@kapsch.net",
+        "firstName": null,
+        "surname": null,
+        "email": "anton.pustina@kapsch.net",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "anton.pustina@kapsch.net",
+        "refObjectType": "USER",
+        "refObjectId": 1023241,
+        "objectName": "anton.pustina@kapsch.net",
+        "refObjectDisplayName": "anton.pustina@kapsch.net"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023257,
+    "version": 1,
+    "providerName": "Kelag",
+    "groupIdRef": 1023227,
+    "contactMails": [
+      "herbert.eder@kelag.at",
+      "Harald.Marx@kelag.at",
+      "Wolfgang.Langer@kelag.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023271,
+        "siteId": "640437A",
+        "location": "Klagenfurt, 9020, Arnulfplatz 2"
+      },
+      {
+        "guid": 1023315,
+        "siteId": "680097A",
+        "location": "Spittal an der Drau, 9800, Tiroler Strasse 5"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023242,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "herbert.eder@kelag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "herbert.eder@kelag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "herbert.eder@kelag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023242,
+        "objectName": "herbert.eder@kelag.at",
+        "refObjectDisplayName": "herbert.eder@kelag.at"
+      },
+      {
+        "guid": 1023244,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "Harald.Marx@kelag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "Harald.Marx@kelag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "Harald.Marx@kelag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023244,
+        "objectName": "Harald.Marx@kelag.at",
+        "refObjectDisplayName": "Harald.Marx@kelag.at"
+      },
+      {
+        "guid": 1023243,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "Wolfgang.Langer@kelag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "Wolfgang.Langer@kelag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "Wolfgang.Langer@kelag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023243,
+        "objectName": "Wolfgang.Langer@kelag.at",
+        "refObjectDisplayName": "Wolfgang.Langer@kelag.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 6,
+    "version": 0,
+    "providerName": "Linz AG (BBI)",
+    "groupIdRef": 1023163,
+    "contactMails": [
+      "s.klammer@linzag.at",
+      "k.brandstaetter@linzag.at",
+      "c.woegerer@linzag.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023196,
+        "siteId": "500001A",
+        "location": "Linz, 4020, Fichtenstraße 7"
+      },
+      {
+        "guid": 1023293,
+        "siteId": "540667A",
+        "location": "Linz, Donau, 4020, Salzburgerstrasse 373 B"
+      },
+      {
+        "guid": 1023274,
+        "siteId": "540679A",
+        "location": "Linz, Donau, 4030, Löwenzahnweg 11 Lagerhalle 1"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023509,
+        "version": 0,
+        "providerGuid": 6,
+        "slaName": "SLA0",
+        "availabilityPeriod": "Yearly",
+        "availability": 99,
+        "support": "24/7",
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": true,
+        "active": true
+      },
+      {
+        "guid": 1023510,
+        "version": 0,
+        "providerGuid": 6,
+        "slaName": "SLA1",
+        "availabilityPeriod": "Yearly",
+        "availability": 99.5,
+        "support": "24/7",
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": false,
+        "active": true
+      },
+      {
+        "guid": 1023511,
+        "version": 0,
+        "providerGuid": 6,
+        "slaName": "SLA2",
+        "availabilityPeriod": "Yearly",
+        "availability": 99.7,
+        "support": "24/7",
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": false,
+        "active": true
+      },
+      {
+        "guid": 1023512,
+        "version": 0,
+        "providerGuid": 6,
+        "slaName": "Premium",
+        "availabilityPeriod": "Yearly",
+        "availability": 99.95,
+        "support": "24/7",
+        "mttrOnsite": 0,
+        "mttrRemote": 0,
+        "diagnose": 0,
+        "isDefault": false,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023180,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "s.klammer@linzag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "s.klammer@linzag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "s.klammer@linzag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023180,
+        "objectName": "s.klammer@linzag.at",
+        "refObjectDisplayName": "s.klammer@linzag.at"
+      },
+      {
+        "guid": 1023182,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "k.brandstaetter@linzag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "k.brandstaetter@linzag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "k.brandstaetter@linzag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023182,
+        "objectName": "k.brandstaetter@linzag.at",
+        "refObjectDisplayName": "k.brandstaetter@linzag.at"
+      },
+      {
+        "guid": 1023181,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "c.woegerer@linzag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "c.woegerer@linzag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "c.woegerer@linzag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023181,
+        "objectName": "c.woegerer@linzag.at",
+        "refObjectDisplayName": "c.woegerer@linzag.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023258,
+    "version": 1,
+    "providerName": "Nextlayer",
+    "groupIdRef": 1023228,
+    "contactMails": [
+      "sales@nextlayer.at; "
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023280,
+        "siteId": "150686A",
+        "location": "Wien, 1220, Donaucitystrasse 11"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023245,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "sales@nextlayer.at; ",
+        "firstName": null,
+        "surname": null,
+        "email": "sales@nextlayer.at; ",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "sales@nextlayer.at; ",
+        "refObjectType": "USER",
+        "refObjectId": 1023245,
+        "objectName": "sales@nextlayer.at; ",
+        "refObjectDisplayName": "sales@nextlayer.at; "
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023259,
+    "version": 1,
+    "providerName": "oja.at",
+    "groupIdRef": 1023229,
+    "contactMails": [
+      "stefan.gerngross@oja.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023246,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "stefan.gerngross@oja.at",
+        "firstName": null,
+        "surname": null,
+        "email": "stefan.gerngross@oja.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "stefan.gerngross@oja.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023246,
+        "objectName": "stefan.gerngross@oja.at",
+        "refObjectDisplayName": "stefan.gerngross@oja.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 10,
+    "version": 0,
+    "providerName": "Onstage",
+    "groupIdRef": 1023167,
+    "contactMails": [
+      "rl@onstage.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023193,
+        "siteId": "190132A",
+        "location": "Wien, 1210, Brünner Straße 52"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023516,
+        "version": 0,
+        "providerGuid": 10,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023186,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "rl@onstage.at",
+        "firstName": null,
+        "surname": null,
+        "email": "rl@onstage.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "rl@onstage.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023186,
+        "objectName": "rl@onstage.at",
+        "refObjectDisplayName": "rl@onstage.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 5,
+    "version": 0,
+    "providerName": "SAG",
+    "groupIdRef": 1023162,
+    "contactMails": [
+      "tk-carrier@salzburg-ag.at",
+      "heimo.angerbauer@salzburg-ag.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023198,
+        "siteId": "700156A",
+        "location": "Salzburg, 5020, Schillerstraße 30"
+      },
+      {
+        "guid": 1023275,
+        "siteId": "700160A",
+        "location": "Salzburg, 5020, Bayerhamerstrasse 16"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023508,
+        "version": 0,
+        "providerGuid": 5,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023179,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "tk-carrier@salzburg-ag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "tk-carrier@salzburg-ag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "tk-carrier@salzburg-ag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023179,
+        "objectName": "tk-carrier@salzburg-ag.at",
+        "refObjectDisplayName": "tk-carrier@salzburg-ag.at"
+      },
+      {
+        "guid": 1023178,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "heimo.angerbauer@salzburg-ag.at",
+        "firstName": null,
+        "surname": null,
+        "email": "heimo.angerbauer@salzburg-ag.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "heimo.angerbauer@salzburg-ag.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023178,
+        "objectName": "heimo.angerbauer@salzburg-ag.at",
+        "refObjectDisplayName": "heimo.angerbauer@salzburg-ag.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 3,
+    "version": 0,
+    "providerName": "Stadtwerke Feldkirch",
+    "groupIdRef": 1023159,
+    "contactMails": [
+      "telekommunikation@stadtwerke-feldkirch.at",
+      "siegfried.gumilar@stadtwerke-feldkirch.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023201,
+        "siteId": "960043A",
+        "location": "Bludenz, 6700, Verbund Mast Leitung 421/422 HS Mast Nr. 303"
+      },
+      {
+        "guid": 1023328,
+        "siteId": "960087A",
+        "location": "Feldkirch, 6800, Mutterstrasse 49"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023506,
+        "version": 0,
+        "providerGuid": 3,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023175,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "telekommunikation@stadtwerke-feldkirch.at",
+        "firstName": null,
+        "surname": null,
+        "email": "telekommunikation@stadtwerke-feldkirch.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "telekommunikation@stadtwerke-feldkirch.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023175,
+        "objectName": "telekommunikation@stadtwerke-feldkirch.at",
+        "refObjectDisplayName": "telekommunikation@stadtwerke-feldkirch.at"
+      },
+      {
+        "guid": 1023174,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "siegfried.gumilar@stadtwerke-feldkirch.at",
+        "firstName": null,
+        "surname": null,
+        "email": "siegfried.gumilar@stadtwerke-feldkirch.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "siegfried.gumilar@stadtwerke-feldkirch.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023174,
+        "objectName": "siegfried.gumilar@stadtwerke-feldkirch.at",
+        "refObjectDisplayName": "siegfried.gumilar@stadtwerke-feldkirch.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023260,
+    "version": 1,
+    "providerName": "Stadtwerke Kapfenberg",
+    "groupIdRef": 1023230,
+    "contactMails": [
+      "manuel.steindl@stadtwerke-kapfenberg.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023330,
+        "siteId": "420081A",
+        "location": "Kapfenberg, 8605, Wiener Strasse 35"
+      },
+      {
+        "guid": 1023299,
+        "siteId": "440635A",
+        "location": "Kapfenberg, 8605, Höhkogel 1"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023247,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "manuel.steindl@stadtwerke-kapfenberg.at",
+        "firstName": null,
+        "surname": null,
+        "email": "manuel.steindl@stadtwerke-kapfenberg.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "manuel.steindl@stadtwerke-kapfenberg.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023247,
+        "objectName": "manuel.steindl@stadtwerke-kapfenberg.at",
+        "refObjectDisplayName": "manuel.steindl@stadtwerke-kapfenberg.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 13,
+    "version": 0,
+    "providerName": "Stadtwerke Klagenfurt",
+    "groupIdRef": 1023170,
+    "contactMails": [
+      "markus.gronald@stw.at",
+      "businessVertrieb@stw.at",
+      "guenter.glaboniat@stw.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023197,
+        "siteId": "600002A",
+        "location": "Klagenfurt, 9020, Südring 240"
+      },
+      {
+        "guid": 1023271,
+        "siteId": "640437A",
+        "location": "Klagenfurt, 9020, Arnulfplatz 2"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023519,
+        "version": 0,
+        "providerGuid": 13,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023190,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "markus.gronald@stw.at",
+        "firstName": null,
+        "surname": null,
+        "email": "markus.gronald@stw.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "markus.gronald@stw.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023190,
+        "objectName": "markus.gronald@stw.at",
+        "refObjectDisplayName": "markus.gronald@stw.at"
+      },
+      {
+        "guid": 1023192,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "businessVertrieb@stw.at",
+        "firstName": null,
+        "surname": null,
+        "email": "businessVertrieb@stw.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "businessVertrieb@stw.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023192,
+        "objectName": "businessVertrieb@stw.at",
+        "refObjectDisplayName": "businessVertrieb@stw.at"
+      },
+      {
+        "guid": 1023191,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "guenter.glaboniat@stw.at",
+        "firstName": null,
+        "surname": null,
+        "email": "guenter.glaboniat@stw.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "guenter.glaboniat@stw.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023191,
+        "objectName": "guenter.glaboniat@stw.at",
+        "refObjectDisplayName": "guenter.glaboniat@stw.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023262,
+    "version": 1,
+    "providerName": "T-Mobile AT",
+    "groupIdRef": 1023232,
+    "contactMails": [
+      "andreas.schmidt@upc.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023336,
+        "siteId": "150681A",
+        "location": "Wien, 1030, Rennweg 97-99"
+      },
+      {
+        "guid": 1023338,
+        "siteId": "150707A",
+        "location": "Wien, 1100, Computerstraße 4"
+      },
+      {
+        "guid": 1023276,
+        "siteId": "800159A",
+        "location": "Innsbruck, 6020, Duilestrasse 32"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023249,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "andreas.schmidt@upc.at",
+        "firstName": null,
+        "surname": null,
+        "email": "andreas.schmidt@upc.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "andreas.schmidt@upc.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023249,
+        "objectName": "andreas.schmidt@upc.at",
+        "refObjectDisplayName": "andreas.schmidt@upc.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023263,
+    "version": 1,
+    "providerName": "T-Systems",
+    "groupIdRef": 1023233,
+    "contactMails": [
+      "icss_sales@t-systems.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023336,
+        "siteId": "150681A",
+        "location": "Wien, 1030, Rennweg 97-99"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023250,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "icss_sales@t-systems.at",
+        "firstName": null,
+        "surname": null,
+        "email": "icss_sales@t-systems.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "icss_sales@t-systems.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023250,
+        "objectName": "icss_sales@t-systems.at",
+        "refObjectDisplayName": "icss_sales@t-systems.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023261,
+    "version": 1,
+    "providerName": "Tiwag",
+    "groupIdRef": 1023231,
+    "contactMails": [
+      "bit-tk-abwicklung@tiwag.at  "
+    ],
+    "pops": [
+      {
+        "guid": 1023276,
+        "siteId": "800159A",
+        "location": "Innsbruck, 6020, Duilestrasse 32"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023248,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "bit-tk-abwicklung@tiwag.at  ",
+        "firstName": null,
+        "surname": null,
+        "email": "bit-tk-abwicklung@tiwag.at  ",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "bit-tk-abwicklung@tiwag.at  ",
+        "refObjectType": "USER",
+        "refObjectId": 1023248,
+        "objectName": "bit-tk-abwicklung@tiwag.at  ",
+        "refObjectDisplayName": "bit-tk-abwicklung@tiwag.at  "
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023264,
+    "version": 1,
+    "providerName": "Türk Telekom",
+    "groupIdRef": 1023234,
+    "contactMails": [
+      "ewald.martinelli@turktelekomint.com"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023251,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "ewald.martinelli@turktelekomint.com",
+        "firstName": null,
+        "surname": null,
+        "email": "ewald.martinelli@turktelekomint.com",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "ewald.martinelli@turktelekomint.com",
+        "refObjectType": "USER",
+        "refObjectId": 1023251,
+        "objectName": "ewald.martinelli@turktelekomint.com",
+        "refObjectDisplayName": "ewald.martinelli@turktelekomint.com"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 2,
+    "version": 0,
+    "providerName": "UPC",
+    "groupIdRef": 1023158,
+    "contactMails": [
+      "wholesale@upc.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023338,
+        "siteId": "150707A",
+        "location": "Wien, 1100, Computerstraße 4"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023505,
+        "version": 0,
+        "providerGuid": 2,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023173,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "wholesale@upc.at",
+        "firstName": null,
+        "surname": null,
+        "email": "wholesale@upc.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "wholesale@upc.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023173,
+        "objectName": "wholesale@upc.at",
+        "refObjectDisplayName": "wholesale@upc.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1023265,
+    "version": 1,
+    "providerName": "Video-Broadcast",
+    "groupIdRef": 1023235,
+    "contactMails": [
+      "office@video-broadcast.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023280,
+        "siteId": "150686A",
+        "location": "Wien, 1220, Donaucitystrasse 11"
+      }
+    ],
+    "slas": [],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023252,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "office@video-broadcast.at",
+        "firstName": null,
+        "surname": null,
+        "email": "office@video-broadcast.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "office@video-broadcast.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023252,
+        "objectName": "office@video-broadcast.at",
+        "refObjectDisplayName": "office@video-broadcast.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 1,
+    "version": 0,
+    "providerName": "VKW",
+    "groupIdRef": 1023157,
+    "contactMails": [
+      "Kurt.natter@vkw.at",
+      "huber@vkw.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023277,
+        "siteId": "900074A",
+        "location": "Bregenz, 6900, Strabonstrasse 8"
+      },
+      {
+        "guid": 1023279,
+        "siteId": "940157A",
+        "location": "Dornbirn, 6850, Rathausplatz 5"
+      },
+      {
+        "guid": 1023350,
+        "siteId": "940159A",
+        "location": "Götzis, 6840, Sankt-Ulrich-Straße 48"
+      },
+      {
+        "guid": 1023351,
+        "siteId": "940160A",
+        "location": "Rankweil, 6830, Ringstraße 5"
+      },
+      {
+        "guid": 1023200,
+        "siteId": "960023A",
+        "location": "Bludenz, 6700, Verbund Mast Leitung 421/422 HS Mast Nr. 303"
+      },
+      {
+        "guid": 1023278,
+        "siteId": "960086A",
+        "location": "Bürs, 6706, Bremschlstrasse 1"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023504,
+        "version": 0,
+        "providerGuid": 1,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023172,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "Kurt.natter@vkw.at",
+        "firstName": null,
+        "surname": null,
+        "email": "Kurt.natter@vkw.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "Kurt.natter@vkw.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023172,
+        "objectName": "Kurt.natter@vkw.at",
+        "refObjectDisplayName": "Kurt.natter@vkw.at"
+      },
+      {
+        "guid": 1023171,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "huber@vkw.at",
+        "firstName": null,
+        "surname": null,
+        "email": "huber@vkw.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "huber@vkw.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023171,
+        "objectName": "huber@vkw.at",
+        "refObjectDisplayName": "huber@vkw.at"
+      }
+    ],
+    "active": true
+  },
+  {
+    "guid": 9,
+    "version": 0,
+    "providerName": "Wien Energie",
+    "groupIdRef": 1023166,
+    "contactMails": [
+      "telekommunikation@wienstrom.at"
+    ],
+    "pops": [
+      {
+        "guid": 1023282,
+        "siteId": "120193A",
+        "location": "Wien, 1210, Louis-Häfliger-Gasse 10"
+      },
+      {
+        "guid": 1023281,
+        "siteId": "130164A",
+        "location": "Wien, 1120, Pottendorfer Strasse 30"
+      },
+      {
+        "guid": 1023283,
+        "siteId": "150676A",
+        "location": "Wien, 1090, Waehringer Guertel 78"
+      },
+      {
+        "guid": 1023280,
+        "siteId": "150686A",
+        "location": "Wien, 1220, Donaucitystrasse 11"
+      },
+      {
+        "guid": 1023193,
+        "siteId": "190132A",
+        "location": "Wien, 1210, Brünner Straße 52"
+      }
+    ],
+    "slas": [
+      {
+        "guid": 1023515,
+        "version": 0,
+        "providerGuid": 9,
+        "slaName": "Standard",
+        "availabilityPeriod": "Quart",
+        "availability": 99.9,
+        "support": "24/7",
+        "mttrOnsite": 6,
+        "mttrRemote": 3,
+        "diagnose": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "countries": [
+      "Austria"
+    ],
+    "users": [
+      {
+        "guid": 1023185,
+        "externalGuid": null,
+        "source": null,
+        "company": null,
+        "loginName": "telekommunikation@wienstrom.at",
+        "firstName": null,
+        "surname": null,
+        "email": "telekommunikation@wienstrom.at",
+        "mobile": null,
+        "groups": null,
+        "roles": null,
+        "locked": false,
+        "displayName": "null null",
+        "sso": null,
+        "pmcDepartment": null,
+        "sendOpenTaskMail": false,
+        "runAs": null,
+        "stringPermissions": null,
+        "objectPermissions": [],
+        "admin": false,
+        "idName": "telekommunikation@wienstrom.at",
+        "refObjectType": "USER",
+        "refObjectId": 1023185,
+        "objectName": "telekommunikation@wienstrom.at",
+        "refObjectDisplayName": "telekommunikation@wienstrom.at"
+      }
+    ],
+    "active": true
+  }
+]

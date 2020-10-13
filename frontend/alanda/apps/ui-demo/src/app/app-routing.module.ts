@@ -16,6 +16,7 @@ import { AlandaTaskListComponent } from './views/task-list/task-list.component';
 import { UserEnrichedProjectsControllerComponent } from './components/projects-controller/user-enriched-projects-controller.component';
 import { ProjectsAndProcessesDemoComponent } from './components/projects-and-processes-demo/projects-and-processes-demo.component';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
+import { NniImportProvidersCheckedComponent} from "./features/nni/nni-import-providers-checked.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: { title: 'Home' } },
@@ -64,6 +65,11 @@ const routes: Routes = [
     data: { title: 'Tasks' },
   },
   {
+    path: 'nni',
+    component: NniImportProvidersCheckedComponent,
+    data: { title: 'NNI' },
+  },
+  {
     path: 'forms',
     children: [
       {
@@ -76,19 +82,6 @@ const routes: Routes = [
       },
     ],
   },
-  // {
-  //   path: 'projectdetails/:projectId',
-  //   component: UserEnrichedProjectsControllerComponent,
-  //   children: [
-  //     {
-  //       path: 'vacation',
-  //       loadChildren: () =>
-  //         import('./features/vacation/vacation.module').then(
-  //           (m) => m.VacationModule,
-  //         ),
-  //     },
-  //   ],
-  // },
   {
     path: 'projectdetails/:projectId',
     component: ProjectsAndProcessesDemoComponent,

@@ -33,12 +33,11 @@ export interface AlandaTaskFormState {
 
 @Injectable({ providedIn: 'root' })
 export class AlandaTaskFormService extends RxState<AlandaTaskFormState>
+// export class AlandaTaskFormService<T extends AlandaTaskFormState> extends RxState<T>
   implements OnDestroy {
   state$ = this.select().pipe(filter((state) => state.task != null));
 
   rootForm = this.fb.group({});
-
-  // routerParams$ = this.route.params;
 
   routerParams$ = this.router.events.pipe(
     filter((event: RouterEvent): boolean => event instanceof NavigationEnd),

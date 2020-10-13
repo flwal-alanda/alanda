@@ -37,12 +37,14 @@ import { UserEnrichedProjectsControllerComponent } from './components/projects-c
 import { TabViewModule } from 'primeng/tabview';
 import { ToastModule } from 'primeng/toast';
 import { ProjectsAndProcessesDemoComponent } from './components/projects-and-processes-demo/projects-and-processes-demo.component';
+import {NniImportProvidersCheckedComponent} from "./features/nni/nni-import-providers-checked.component";
 
 const CURRENT_CONFIG: AppSettings = ALANDA_CONFIG;
 
 @NgModule({
   declarations: [
     AppComponent,
+    NniImportProvidersCheckedComponent,
     ProjectDetailsComponent,
     PermissionsDemoComponent,
     UserManagementContainerComponent,
