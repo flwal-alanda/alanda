@@ -52,8 +52,6 @@ export class NniImportProvidersCheckedComponent implements BaseFormComponent, On
 
     this.response$ = this.alandaObjectService.getAllByTypeName('NNI');
 
-    let counter = 1;
-
     const nnis$ = this.alandaObjectService.getAllByTypeName('NNI')
       .pipe(
         map(response => {
@@ -61,17 +59,10 @@ export class NniImportProvidersCheckedComponent implements BaseFormComponent, On
           response.forEach(
             alandaObject => {
 
+              const sup = alandaObject.objectProperties.find((prop) => prop.key === 'Supplier').value;
+              const nni = alandaObject.objectProperties.find((prop) => prop.key === 'NNI (Alias)').value;
 
-
-              const sup = alandaObject.objectProperties.find((prop) => prop.key === 'EXTERNSUPPLIER').value;
-              const nni = alandaObject.objectProperties.find((prop) => prop.key === 'NNI').value;
-              const alias = alandaObject.objectProperties.find((prop) => prop.key === 'ALIAS1').value;
-              const name = nni + ' (' + alias + ')';
-
-              console.log(nni)
-              console.log(counter++)
-
-              result.push({supplier: sup, nni: name, reference: alandaObject})
+              result.push({supplier: sup, nni: nni, reference: alandaObject})
             }
           )
           return result;

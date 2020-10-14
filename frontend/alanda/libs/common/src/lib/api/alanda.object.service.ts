@@ -18,7 +18,6 @@ export class AlandaObjectServiceNg extends AlandaExceptionHandlingService {
   ) {
     super();
     this.apiEndpointUrl = config.API_ENDPOINT + '/object';
-    // this.apiEndpointUrl = 'http://localhost:8080/drei-bpm-rest/app/object';
   }
 
   getAll(): Observable<AlandaObject[]> {
